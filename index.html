@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Manager Library</title>
+  <meta name="description" content="Manager Library: catálogo, socios y préstamos para una biblioteca pequeña.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="top">
+    <a class="brand" href="#inicio">Manager Library</a>
+    <nav aria-label="Principal">
+      <a href="#funciones">Funciones</a>
+      <a href="#reglas">Reglas</a>
+      <a href="#categorias">Categorías</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <h1>La biblioteca pequeña, bien llevada</h1>
+      <p>Catálogo de libros, socios y préstamos en un solo lugar, y a la vista qué libros se prestan más.</p>
+    </section>
+
+    <section id="funciones" class="block">
+      <h2>Qué hace</h2>
+      <div class="grid">
+        <article>
+          <h3>Catálogo</h3>
+          <p>Libros con autor, ISBN, categoría, ejemplares y portada opcional. Búsqueda por título o autor.</p>
+        </article>
+        <article>
+          <h3>Socios</h3>
+          <p>Registro de las personas que piden prestado, con su documento. Los socios no inician sesión.</p>
+        </article>
+        <article>
+          <h3>Préstamos</h3>
+          <p>Hasta tres libros por préstamo, devolución línea por línea y aviso de libros vencidos.</p>
+        </article>
+        <article>
+          <h3>Reporte</h3>
+          <p>Los libros más prestados en un periodo, con el título y la categoría tal como estaban al prestar.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="reglas" class="block alt">
+      <h2>Reglas claras</h2>
+      <ul class="rules">
+        <li><strong>14 días</strong> de plazo para cada préstamo.</li>
+        <li><strong>3 libros</strong> como máximo sin devolver por socio.</li>
+        <li><strong>Sin vencidos</strong>: un socio con un libro vencido no pide otro hasta devolverlo.</li>
+        <li><strong>Historial intacto</strong>: los préstamos no se borran y los libros solo se dan de baja.</li>
+      </ul>
+    </section>
+
+    <section id="categorias" class="block">
+      <h2>Cinco categorías</h2>
+      <ul class="chips">
+        <li>Novela</li>
+        <li>Ciencia</li>
+        <li>Tecnología</li>
+        <li>Historia</li>
+        <li>Infantil</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>Manager Library. Prueba técnica SDD, ficha ADSO 3145555.</p>
+  </footer>
+</body>
+</html>
